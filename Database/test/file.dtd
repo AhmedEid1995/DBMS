@@ -1,0 +1,6 @@
+<!ELEMENT file (row)*>
+<!ELEMENT row (name,id,subject,grade)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT grade (#PCDATA)>
